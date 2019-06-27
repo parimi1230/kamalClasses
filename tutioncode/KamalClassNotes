@@ -1,0 +1,57 @@
+Java:
+----------------
+- James Gosling
+- Biggest advantage - Platform independent - achieved with .class file.
+
+- Program - how it compiles, how it runs
+class, Object
+- OOPS concepts
+    - Interfaces
+	- abstract classes and methods
+- Datatypes.	
+- default, private, protected, public.
+- static, final
+- How to work with conditions
+- loops
+- Switch statements
+- Exception Handling
+- Multi Threading
+- Collections framework.
+-------------------------------------------------------------------------------------------
+
+Class - 
+  action - driving - method
+  properties - variables. - ex. music, steering, type of gear.
+  
+Dog - bark, swinging of tail - method
+properties - tail, legs, eyes
+
+
+- Object. - Instance of a class. - new 
+
+
+How it compiles :
+
+hardware
+-----
+OS
+----
+JVM
+----
+java
+
+compiling a program:
+---------------------
+javac filename
+
+Running a program:
+--------------------
+java className
+
+Java Helloworld sample:
+String args[] - To read command line arguments.
+
+Class: - Always it should be noun
+Method - Always it should be verb.
+-----------------
+
