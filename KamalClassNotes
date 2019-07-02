@@ -1,4 +1,4 @@
-Java:
+:
 ----------------
 - James Gosling
 - Biggest advantage - Platform independent - achieved with .class file.
@@ -6,6 +6,13 @@ Java:
 - Program - how it compiles, how it runs
 class, Object
 - OOPS concepts
+    - Inheritence - Need to notes
+	- Polymorphism - Added Done.
+	- abstraction - 
+	- Encapsulation
+	- Aggregation
+	- Composition
+
     - Interfaces
 	- abstract classes and methods
 - Datatypes.	
@@ -55,3 +62,31 @@ Class: - Always it should be noun
 Method - Always it should be verb.
 -----------------
 
+Compile Time Polymorphism   
+-----------------------------------
+Same Method name with different parameters.-Key1
+The linking will happen while compiling. - Key2
+this is also called method overloading
+
+Runtime Polymorphism
+------------------------
+Runtime polimorphism will happen in case of parent child relationship.
+This will have Same method signature.
+The linking will happen at runtime.
+
+Abstraction:
+--------------
+Hiding unnecessary details to the end user. Ex: car - Steering, Gearbox and ABC are interfaces.
+Abstraction in java can be achieved via abstract methods, interfaces.
+
+Abstract methods:
+   public void abstractmethod();
+
+Class GoogleApis
+  - fetch mails from gmail. public void fetchGmailInfo(){ }
+  - get photos from drive.
+  - get docs from google docs.
+  
+class yahooAPI extends GoogleApis
+   - fetch mail from yahooAPI - public void fetchGmailInfo(){ hit yahoomail and fetch data}
+   
