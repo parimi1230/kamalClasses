@@ -2,6 +2,7 @@
      Runtime polimorphism will happen in case of parent child relationship.
 	 This will have Same method signature.
 	 The linking will happen at runtime.
+	 Key point - assigning child class instance to parent class and call child class overridden method from parent reference.
 **/
 
 
@@ -12,6 +13,7 @@ class Car{
 }
 
 class TataTiago extends Car{
+	
 }
 
 class Audi extends Car{
@@ -42,5 +44,5 @@ class RunTimePolymophismTest{
 	 Car car1 = new BMWA6();
 	 car1.milege();
 	 }
-    
+   
 }

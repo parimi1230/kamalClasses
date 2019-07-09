@@ -80,13 +80,78 @@ Hiding unnecessary details to the end user. Ex: car - Steering, Gearbox and ABC 
 Abstraction in java can be achieved via abstract methods, interfaces.
 
 Abstract methods:
+----------------------------------
    public void abstractmethod();
 
-Class GoogleApis
+
+Abstract Class : It consists of alteast one abstract method 
+Concrete class : It dont have any abstract methods. It will have methods with body.
+
+concreate method: It has body.
+abstract method : It dont have body, it has declaration.
+
+If there is an abstract method inside a class then the class should be abstract.
+Abstarct class can have non abstarct methods.
+
+If a class extends absract class then the child class should be an abstarct class or it should override the abstract methods.
+
+Class GoogleApis implements Apis{
   - fetch mails from gmail. public void fetchGmailInfo(){ }
   - get photos from drive.
   - get docs from google docs.
+  }
   
-class yahooAPI extends GoogleApis
-   - fetch mail from yahooAPI - public void fetchGmailInfo(){ hit yahoomail and fetch data}
-   
+class yahooAPI extends GoogleApis {
+   - fetch mail from yahooAPI -
+   public void fetchGmailInfo(){
+    hit yahoomail and fetch data
+    }
+  }
+
+
+interfaces:
+   ***** It Provides 100% abstraction.It dont have concrete methods.
+
+
+
+How exactly we use overriding.
+
+website login - 
+User - account - 
+Flag- G/Y/F
+   interface Apis{
+     fetchMail();
+	 fetchphotos();
+	 getDocs();
+   }
+
+Apis getAPIClass(){
+  if(key == 'G')  
+    return new GoogleApis();
+   if(key == 'Y')	
+    return new YahooApis();
+   if(key == 'F')
+	return new FacebookAPI();
+	
+	
+Class GoogleApis implements Apis{
+  fetchMail(); - fetch mails from gmail. public void fetchGmailInfo(){ }
+  fetchphotos(); - get photos from drive.
+  getDocs();- get docs from google docs.
+  }
+  
+class yahooAPI implements Apis {
+  fetchMail(); - fetch mail from yahooAPI -
+   fetchphotos(); public void fetchGmailInfo(){
+   getDocs(); hit yahoomail and fetch data
+    }
+  }
+
+class FacebookAPI implements Apis {
+   fetchMail()- fetch mail from facebook -
+   fetchphotos(); -public photos from FB(){
+    getDocs();fetch docs from FB()
+    }
+  }
+
+  
