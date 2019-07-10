@@ -13,7 +13,6 @@ class, Object
 	- Association - Arranging Unrelated class in a group.
 	- Aggregation - Arrangaing related classes as a group, but one class can exist without the other.
 	- Composition - Arrangaing related classes as a group, but one class cannot exist without the other
-
     - Interfaces
 	- abstract classes and methods
 - Datatypes.
