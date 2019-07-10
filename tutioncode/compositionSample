@@ -1,0 +1,15 @@
+//Composition
+class HumanBody{
+   
+}
+
+class Heart{
+  
+}
+
+class compositionSample{
+  
+  HumanBody body;
+  Heart heart;
+
+}

@@ -8,14 +8,15 @@ class, Object
 - OOPS concepts
     - Inheritence - Need to notes
 	- Polymorphism - Added Done.
-	- abstraction - 
-	- Encapsulation
-	- Aggregation
-	- Composition
+	- abstraction - abstract classes, methods, interfaces
+	- Encapsulation - Combining data and behaviour together is called encapsulation.
+	- Association - 
+	- Aggregation - 
+	- Composition - 
 
     - Interfaces
 	- abstract classes and methods
-- Datatypes.	
+- Datatypes.
 - default, private, protected, public.
 - static, final
 - How to work with conditions
@@ -24,6 +25,10 @@ class, Object
 - Exception Handling
 - Multi Threading
 - Collections framework.
+
+-- postgres SQL
+-- MongoDB sample.
+
 -------------------------------------------------------------------------------------------
 
 Class - 
@@ -110,10 +115,37 @@ class yahooAPI extends GoogleApis {
 
 
 interfaces:
-   ***** It Provides 100% abstraction.It dont have concrete methods.
+***** It Provides 100% abstraction.It dont have concrete methods.
+*** To define strict rules and definitions for the implementing classes. 
+
+
+Encapsulation:
+Combining data and behaviour together is called encapsulation.
+
+
+class Employee{
+   
+   private String eName;
+   
+   public String getEName(){
+     return this.eName;
+   }
+    
+   public void setEName(String eName){
+     this.eName = eName
+   }
+   
+   
+}
 
 
 
+
+
+
+
+
+---------------------------------------------------
 How exactly we use overriding.
 
 website login - 
@@ -154,4 +186,3 @@ class FacebookAPI implements Apis {
     }
   }
 
-  

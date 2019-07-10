@@ -1,0 +1,11 @@
+//Aggregation Sample.
+
+class EmployeeWorker{
+
+}
+
+class Factory{
+
+  EmployeeWorker emp;
+
+}

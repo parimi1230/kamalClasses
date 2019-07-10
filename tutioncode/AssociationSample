@@ -1,0 +1,39 @@
+class Vehicle{
+
+}
+
+class Toys{
+
+}
+
+
+class myChoiceAssociation{
+
+  vehicle vehicle;
+  Toys toys;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
