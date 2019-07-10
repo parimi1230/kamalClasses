@@ -10,9 +10,9 @@ class, Object
 	- Polymorphism - Added Done.
 	- abstraction - abstract classes, methods, interfaces
 	- Encapsulation - Combining data and behaviour together is called encapsulation.
-	- Association - 
-	- Aggregation - 
-	- Composition - 
+	- Association - Arranging Unrelated class in a group.
+	- Aggregation - Arrangaing related classes as a group, but one class can exist without the other.
+	- Composition - Arrangaing related classes as a group, but one class cannot exist without the other
 
     - Interfaces
 	- abstract classes and methods
