@@ -134,9 +134,73 @@ class Employee{
      this.eName = eName
    }
    
+   public static void main(String args[]){
+      Employee emp = new Employee();
+   }
    
 }
 
+
+
+DataTypes :
+------------------
+What is data type: it is used to say which type of data the variable is going to hold.
+
+1 byte - 8 bits
+1 kiloByte - 1024 bytes
+1 Megabyte - 1024 KB
+1 GB - 1024 MB
+1 TB - 1024 GB
+
+primitive                                
+    boolean - 1 bit 0/1
+	char - 2 bytes (16 bits)
+	byte - 1 byte - -2 pow 8 to +2 pow 8
+	short - 2 byte - 
+	int  - 4 byte - 2 pow 32
+	long - 8 byte - 2 pow 64	
+	float - 4 bytes - 2 pow 32  - it has holder for decimal and whole number
+	double - 8 bytes - 2 pow 64 it has holder for decimal and whole number.
+	
+int i = 10;
+int j = 10;
+
+non-priimtive
+  String - Group of characters. 
+     - It has special memory called String literal pool. Which helps in reusability
+     
+	 String str = "abc" ;    
+     Strinig str2 = "abc";	
+	 
+	 String str3 = "abcd"
+	 String str4 = "abcd"	
+	 
+	 
+	 In the above only two values will get created "abc", "abcd" in string literal pool
+
+
+  Array - 
+    Its a Collection of same type of elements.
+  int[] a = new int[10];
+  a = {1, 5 ,6, 10, 12, 13, 14}
+  
+  a[0], a[1], a[]
+  
+   - Type of class - See Employee class above, (when we create object refernce, That reference class is called type of class.)
+  
+Wrapper classes:
+    Boolean
+	Character
+	Short
+	Byte
+	Integer.parseInt
+	Long
+	Float
+	Double.parseDouble
+	
+    
+"1234" - Integer
+"1234" - double
 
 
 
