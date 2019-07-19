@@ -16,7 +16,7 @@ class, Object
     - Interfaces
 	- abstract classes and methods
 - Datatypes.
-- default, private, protected, public.
+- private, default, protected, public . - access specifiers/modifiers
 - static, final
 - How to work with conditions
 - loops
@@ -179,7 +179,7 @@ non-priimtive
 	 In the above only two values will get created "abc", "abcd" in string literal pool
 
 
-  Array - 
+Array -
     Its a Collection of same type of elements.
   int[] a = new int[10];
   a = {1, 5 ,6, 10, 12, 13, 14}
@@ -203,7 +203,20 @@ Wrapper classes:
 "1234" - double
 
 
+Instance variables, - By creating objects we will access variables those are Instance variables
+class variables and - Without creating object we can the variables, static varaibles are class variables.
+method variables - The varaibles which are inside a method.
 
+
+- private - Done 
+default -  
+protected, 
+public
+Levels of usage:
+   method level
+   variable level
+
+   	
 
 
 
@@ -248,4 +261,6 @@ class FacebookAPI implements Apis {
     getDocs();fetch docs from FB()
     }
   }
+
+Area - Satyavedu town ki 2 kms
 
