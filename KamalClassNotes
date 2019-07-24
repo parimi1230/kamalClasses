@@ -17,7 +17,9 @@ class, Object
 	- abstract classes and methods
 - Datatypes.
 - private, default, protected, public . - access specifiers/modifiers
-- static, final
+- final, static.
+- Scopes and garbage collection.
+- static classes.
 - How to work with conditions
 - loops
 - Switch statements
@@ -216,7 +218,69 @@ Levels of usage:
    method level
    variable level
 
-   	
+--------------  	
+Final Keyword.
+--------------
+	variable: We cant reassign another value to a final varialbe.
+	------------------------
+	final datatype nameOfvariable = "varaiable initialization";
+
+	final int i = 10;
+
+	i = 20; //we cant reassign another value for a final variable
+
+	final float pi = 3.1413;
+
+	method : We cannot override final method.
+	-------
+	AppleHigherManagement:
+	final getFounder(){
+	 return "steve jobs";
+	}
+
+	MacintoshManagement extends AppleHigherManagement{
+
+	}
+
+	MacintoshManagement.getFounder() - Steve jobs
+
+	class: We cannot inherit a final class.
+	---------------------------------------
+		// create a final class
+	// create another class
+	// try to inherit final class in another class.
+    
+
+Static:  Without creating instance we can use members(i.e variables, methods) of class.
+-------
+	Varibles : 
+	   You can create a static variable by placing static keyword in your variable declaration.
+	   Static variables can be accessed without creating instance for the class that holds the static variable.
+	methods:
+	   You can create a static method by placing static keyword in your method declaration.
+	   Static method can be accessed without creating instance for the class that holds the static methods.
+	block: 
+	   A static block dont have any method signature it will have static keyword followed by block.
+	    ex: static{}
+	   usage: If we want to execute a group of statements before loading our classes then we go for static block.	
+	   
+	class: Will discuss in another session
+
+// Create a class and have a static varaible inside it.
+// Create another class and have main method inside it.
+// Try to access static variable without creating instance.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
