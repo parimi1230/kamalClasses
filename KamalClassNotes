@@ -19,11 +19,17 @@ class, Object
 - private, default, protected, public . - access specifiers/modifiers
 - final, static.
 - Scopes and garbage collection.
-- static classes.
+  --Method level- A variable declared inside a method can be used inside that method only
+  -- Class Level- A variable declared inside a class can be used across that methods of that class
+  - Garbage collection: Java keeps watch on variables and removes them after usage from memory
+- Operators:
+   --Arithmetic operators: +,-,*,/,%(modulo division)
+   --Logical operators: And(&&),OR(||),<,>,<=,>=,==
 - How to work with conditions
 - loops
 - Switch statements
 - Exception Handling
+- static classes
 - Multi Threading
 - Collections framework.
 
