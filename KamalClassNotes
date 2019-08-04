@@ -25,7 +25,7 @@ class, Object
 - Operators:
    --Arithmetic operators: +,-,*,/,%(modulo division)
    --Logical operators: And(&&),OR(||),<,>,<=,>=,==
-- How to work with conditions
+- How to work with conditions:
 - loops
 - Switch statements
 - Exception Handling
@@ -331,6 +331,36 @@ class FacebookAPI implements Apis {
     getDocs();fetch docs from FB()
     }
   }
+
+  ------------------------------------
+
+Conditions:
+    decision(Boolean)
+       |
+	-----------
+	|          |
+	Yes        No
+
+
+     number > 0
+	   |
+ -----------------
+ |                |
+Number is +ve    Number is -ve
+
+
+if(number > 0){ // we use Logical operators for decision making.
+  print number is +ve;
+}else{
+  print number is -ve;
+}
+
+Functionality decription:
+-------------------------
+method should accept a number:
+Then do decision making in that mathod using the number passed as param.
+
+main -> create instance.
 
 Area - Satyavedu town ki 2 kms
 
