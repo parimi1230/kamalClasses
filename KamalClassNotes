@@ -355,12 +355,44 @@ if(number > 0){ // we use Logical operators for decision making.
   print number is -ve;
 }
 
-Functionality decription:
+Functionality description:
 -------------------------
 method should accept a number:
 Then do decision making in that mathod using the number passed as param.
 
 main -> create instance.
+
+else if: If we want enter into a first successful condition by skipping rest of the condition checks we are using else if
+
+1. create a method, it should accept a number
+2. Check if number is -ve, check wether number is less 30, less than 20, less than 10
+
+
+switch statement:
+switch {
+
+                    case: 10:
+                       sout(equal to 10);
+                       break;
+                    case: 20:
+                       sout(equal to 20);
+                       sout(equal to 20);
+                       break;
+                    case: 30:
+                       sout(equal to 20);
+                       sout(equal to 20);
+                       break;
+                    case: 40:
+                       sout(equal to 20);
+                       sout(equal to 20);
+                       break;
+
+                    default:
+                       sout(Your enetered number is not is matching criteria);
+                       break;
+
+                 }
+
 
 Area - Satyavedu town ki 2 kms
 
