@@ -368,7 +368,11 @@ else if: If we want enter into a first successful condition by skipping rest of 
 2. Check if number is -ve, check wether number is less 30, less than 20, less than 10
 
 
-switch statement:
+switch statement:It has 4 keywords : switch,case,break,default
+switch: It will have expression that tells us which case it has to go
+case: based on the conditions satisfied in switch, it holds a set of instruction to execute
+break: it breaks the flow once the case is executed
+default: if none of the cases are satisfied the default will executed
 switch {
 
                     case: 10:
