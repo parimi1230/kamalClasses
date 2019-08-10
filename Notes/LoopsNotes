@@ -23,3 +23,35 @@ iteration :4
 Write a program:
  it should take a number
  It has to print the number sequence accordingly
+-----------------------------------------------------
+While Loop:
+   Keyword : while
+   Components : initializer, condition, increment
+Usage: If we want to separate initialization, increment part, then we go with while loop.
+   initialization
+   while(condition){
+     statements;
+     .
+     .
+     .
+     incrementer;
+   }
+
+   int i=10;
+   while(i>0){
+   sout(i)
+    i--;
+   }
+
+-----------------------------------------
+Do while Loop:
+  Keywords: do, while.
+  components: initializer, condition, increment
+Usage:
+   do{
+   statements;
+   .
+   .
+   .
+   increment;
+   }while(condition)
