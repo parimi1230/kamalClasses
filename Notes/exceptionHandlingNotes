@@ -15,8 +15,8 @@ Exception Handling :
    FileNotFoundException, UrlNotFoundExceptions...       ClassCastException, NumberFormatExceptions, ArrayIndexOutOfBound, IllegalArgumentException, NullPointerException.
 
 Keywords:
-  try, catch, throws, throw, finally
-
+try, catch, throws, throw, finally
+thrown
 try:
    try{
         //exception suspected sequence of statements.
@@ -33,3 +33,35 @@ Create a Method, that accepts 2 integer params.
    write main method and invoke it with non exception scenario and exception scenario.
 
 ---------------------------------
+Custom Exception:
+-----------------
+It is a normal class, It will extend either Exception class or RuntimeException class to become custom Exception
+
+//It will generates Compiletime Exception
+Class DivideByZeroError extends Exception{
+
+}
+
+//It will generates Runtime Exception
+Class DivideByZeroError extends RuntimeException{
+
+}
+
+If we are having CompileTime Exception in our block of code, then we have 2 choices.
+
+1. We need handle the exception in try, catch
+2. We need to make the exception Class to be declared in method signature.( we use throws)
+
+Throw:
+  throw new CustomException;
+
+1. Create Exception class
+2. Copy the same class we did try catch
+3. In catch use our throw syntax to throw a exception.
+4. main method and then call the implemented method.
+
+
+
+Throws and Throw:
+-------------------
+
