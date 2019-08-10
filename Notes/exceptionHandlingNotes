@@ -15,7 +15,7 @@ Exception Handling :
    FileNotFoundException, UrlNotFoundExceptions...       ClassCastException, NumberFormatExceptions, ArrayIndexOutOfBound, IllegalArgumentException, NullPointerException.
 
 Keywords:
-  try, catch, throw, throws, thrown, finally
+  try, catch, throws, throw, finally
 
 try:
    try{
@@ -30,5 +30,6 @@ try:
 Create a Method, that accepts 2 integer params.
    try to divide them.
    keep the division code in try catch block
-   wrirte main method and invoke it with non exception scenario and exception scenario.
+   write main method and invoke it with non exception scenario and exception scenario.
 
+---------------------------------
