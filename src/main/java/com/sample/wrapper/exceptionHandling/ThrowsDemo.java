@@ -11,5 +11,15 @@ public class ThrowsDemo {
         return num3;
 
     }
+
+    public static void main(String[] args) {
+        ThrowsDemo throwsDemo = new ThrowsDemo();
+        try {
+            throwsDemo.divideByZero(10,0);
+        } catch (DivideByZeroException e) {
+            e.printStackTrace();
+            System.out.println("dont use zero as divisor ");
+        }
+    }
 }
 
