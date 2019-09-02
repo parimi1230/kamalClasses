@@ -14,7 +14,7 @@ class, Object
 	- Aggregation - Arrangaing related classes as a group, but one class can exist without the other.
 	- Composition - Arrangaing related classes as a group, but one class cannot exist without the other
     - Interfaces
-	- abstract classes and methods
+	- abstract classes and methods - My Test123
 - Datatypes.
 - private, default, protected, public . - access specifiers/modifiers
 - final, static.
@@ -24,7 +24,7 @@ class, Object
   - Garbage collection: Java keeps watch on variables and removes them after usage from memory
 - Operators:
    --Arithmetic operators: +,-,*,/,%(modulo division)
-   --Logical operators: And(&&),OR(||),<,>,<=,>=,==
+   --Logical operators: And(&&),OR(||),<,>,<=,>=,== - Just Checking
 - How to work with conditions:
 - loops
 - Switch statements
