@@ -3,7 +3,7 @@ Exception Handling :
 - Errors - We cant handle them.
    StackoverFlow, OutOfMemory
    Optimize Program or increase memory size are solutions for the Errors
-- Exceptions - We can handle programatically.
+- Exceptions - We can handle programatically. test
     Ex: ClassCastException, NumberFormatExceptions, ArrayIndexOutOfBound, IllegalArgumentException, NullPointerException.
 
                Exception
