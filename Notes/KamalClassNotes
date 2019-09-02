@@ -14,7 +14,7 @@ class, Object
 	- Aggregation - Arrangaing related classes as a group, but one class can exist without the other.
 	- Composition - Arrangaing related classes as a group, but one class cannot exist without the other
     - Interfaces
-	- abstract classes and methods - My Test123
+	- abstract classes and methods - Dont do
 - Datatypes.
 - private, default, protected, public . - access specifiers/modifiers
 - final, static.
